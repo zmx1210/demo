@@ -1,0 +1,482 @@
+{
+   "data": {
+      "cameraFlyTo": {
+         "heading": -1.06308,
+         "angle": 0,
+         "pitch": 80.231,
+         "time": 2000.0,
+         "lonlat": [117.29393, 31.72382, -0.05810816306620836],
+         "height": 5950.56632
+      },
+      "postEffect": [
+         {
+            "postEffect": {
+               "enable": true,
+               "bloom": {
+                  "enable": false,
+                  "strength": 0.14,
+                  "radius": 0.4,
+                  "threshold": 0.7
+               },
+               "screenSpaceAmbientOcclusion": {
+                  "enable": false,
+                  "radius": 0.2,
+                  "quality": "medium",
+                  "intensity": 0.8,
+                  "temporalFilter": true,
+                  "ignoreTransparent": false
+               },
+               "colorCorrection": {
+                  "enable": true,
+                  "exposure": 0,
+                  "brightness": 0,
+                  "contrast": 1.1,
+                  "saturation": 1.1,
+                  "gamma": 1
+               },
+               "FXAA": {
+                  "enable": false
+               },
+               "SmallGlowBloom": {
+                  "enable": false,
+                  "strength": 1.5,
+                  "radius": 0.4,
+                  "threshold": 0.2
+               }
+            },
+            "temporalSuperSampling": {
+               "enable": false,
+               "size": 30
+            }
+         },
+         {}
+      ],
+      "light": [
+         {
+            "showHelper": false,
+            "ambientLight": {
+               "ambientFlag": true,
+               "intensity": 0.68,
+               "color": 16777215
+            },
+            "hemisphereLight": {
+               "hemisphereFlag": false,
+               "intensity": 0.34,
+               "color": 3441400,
+               "groundColor": 16106627
+            },
+            "mainLight": {
+               "mainLightFlag": true,
+               "shadow": false,
+               "shadowQuality": "medium",
+               "intensity": 0,
+               "color": 10932978,
+               "alpha": 14,
+               "beta": 123
+            },
+            "spotLights": [],
+            "position": [
+               2494854.29,
+               3356647.24,
+               4814975.58
+            ],
+            "distance": 2000,
+            "secondaryLight": {
+               "shadow": false,
+               "shadowQuality": "medium",
+               "intensity": 0.26,
+               "color": 10477823,
+               "alpha": 40,
+               "beta": -76,
+               "name": "secondaryLight",
+               "title": "第二平行光",
+               "flag": true
+            },
+            "tertiaryLight": {
+               "shadow": false,
+               "shadowQuality": "medium",
+               "intensity": 0,
+               "color": "16777215",
+               "alpha": -33,
+               "beta": 0,
+               "name": "tertiaryLight",
+               "title": "第三平行光",
+               "flag": true
+            }
+         },
+         {
+            "position": [
+               2494854.29,
+               3356647.24,
+               4814975.58
+            ]
+         }
+      ],
+      "tileLayer": [
+         {
+            "name": "OSM地图",
+            "style": {
+               "template": "custom",
+               "grayFilterPerBar": [
+                  0,
+                  0.72,
+                  1
+               ],
+               "brightness": 1,
+               "grayFilterColorBar": [
+                  [
+                     0,
+                     12,
+                     43,
+                     1
+                  ],
+                  [
+                     129,
+                     150,
+                     173,
+                     1
+                  ],
+                  [
+                     0,
+                     28,
+                     55,
+                     1
+                  ]
+               ],
+               "grayFilterEnable": true
+            },
+            "type": "TileLayer",
+            "url": "http://192.168.201.34:8077/getTiles/{z}/{y}/{x}"
+         }
+      ],
+      "bbox": "116.33152128578558,39.87364687697342,116.43719486821705,39.946288776615646",
+      "scenes": [],
+      "layers": [
+         {
+            "renderOrder": -50,
+            "extrudeFactor": 0,
+            "type": "BigBuildingLayer",
+            "sync": "true",
+            "url": "/geojson/f4f3f74ba20ed2661e47b48162cdb646.geojson",
+            "labelId": 5,
+            "enable": true,
+            "name": "green",
+            "visibleLevel": [
+               0,
+               22
+            ],
+            "layerConfig": {
+               "offsetHeight": -70,
+               "type": "vector",
+               "extrudeFactor": 0,
+               "color": "rgba(10,131,52,0.39)",
+               "extrudeField": "无",
+               "transparent": false,
+               "blending": false,
+               "textureWrap": "repeatY",
+               "textureSize": [
+                  3,
+                  3
+               ],
+               "windowColor": "rgb(7,168,255)",
+               "lights": true,
+               "isCool": false,
+               "glowStrength": 0.5,
+               "postRadialBlur": false,
+               "repeat": [
+                  0.2,
+                  0.09
+               ],
+               "offset": [
+                  -0.33,
+                  -0.09
+               ],
+               "metalness": [
+                  0.6,
+                  0.6
+               ],
+               "roughness": [
+                  0.4,
+                  0.4
+               ],
+               "envMapIntensity": 0.98,
+               "windowBrightness": 1.7,
+               "windowImageUrl": "/image/buildingMask1.jpg",
+               "envMapUrl": "/image/",
+               "isOpenWindow": true,
+               "reflectedPanorama": false,
+               "reflectedPanoramaAngle": "",
+               "AOConfig": {
+                  "normal": {
+                     "useAoMap": true,
+                     "aoMapIntensity": 0.85
+                  },
+                  "lights": {
+                     "useAoMap": true,
+                     "aoMapIntensity": 0.6
+                  },
+                  "cool": {
+                     "useAoMap": false,
+                     "aoMapIntensity": 0
+                  }
+               },
+               "opacity": 0.39,
+               "useAoMap": true,
+               "aoMapIntensity": 0.6
+            },
+            "id": 26933,
+            "extrudeField": "无",
+            "geometryType": "GeoBuilding"
+         },
+         {
+            "renderOrder": -46,
+            "extrudeFactor": 1,
+            "scan": {
+               "color": [
+                  210,
+                  217,
+                  232
+               ],
+               "uvMapUrl": "/image/uvMap20.png",
+               "map": "uvMap/uvMap20.png",
+               "angle": 82,
+               "speed": 2,
+               "bandWidth": 3000,
+               "layerName": "building",
+               "blending": false,
+               "glow": true,
+               "scanStyle": "v1"
+            },
+            "type": "BigBuildingLayer",
+            "sync": "true",
+            "url": "/geojson/d2f23d403aa12b49a3453ab93fad70d6.geojson",
+            "labelId": 1,
+            "enable": true,
+            "name": "building",
+            "visibleLevel": [
+               0,
+               22
+            ],
+            "layerConfig": {
+               "type": "image",
+               "extrudeFactor": 0.35,
+               "extrudeField": "Height",
+               "transparent": false,
+               "blending": false,
+               "textureWrap": "stretch",
+               "textureSize": [
+                  3,
+                  3
+               ],
+               "windowColor": "rgb(7,168,255)",
+               "lights": false,
+               "isCool": false,
+               "glowStrength": 0.5,
+               "postRadialBlur": false,
+               "repeat": [
+                  0.2,
+                  0.09
+               ],
+               "offset": [
+                  -0.33,
+                  -0.09
+               ],
+               "metalness": [
+                  0.6,
+                  0.6
+               ],
+               "roughness": [
+                  0.4,
+                  0.4
+               ],
+               "envMapIntensity": 0.98,
+               "windowBrightness": 1.7,
+               "windowImageUrl": "/image/buildingMask1.jpg",
+               "envMapUrl": "/image/",
+               "isOpenWindow": true,
+               "reflectedPanorama": false,
+               "reflectedPanoramaAngle": "",
+               "AOConfig": {
+                  "normal": {
+                     "useAoMap": true,
+                     "aoMapIntensity": 0.85
+                  },
+                  "lights": {
+                     "useAoMap": true,
+                     "aoMapIntensity": 0.6
+                  },
+                  "cool": {
+                     "useAoMap": false,
+                     "aoMapIntensity": 0
+                  }
+               },
+               "imageUrl": [
+                  {
+                     "value": [
+                        "/image/icon_20200825204718765_894149.png",
+                        "/image/icon_20200826162653531_89116.png"
+                     ],
+                     "condition": "[Height<=68.8]"
+                  },
+                  {
+                     "value": [
+                        "/image/icon_20200829195043267_291486.png",
+                        "/image/icon_20200827152538978_6142.png"
+                     ],
+                     "condition": "[Height>68.8]&&[Height<=135.6]"
+                  },
+                  {
+                     "value": [
+                        "/image/icon_20200829195159993_265953.png",
+                        "/image/icon_20200827154021633_780477.png"
+                     ],
+                     "condition": "[Height>135.6]&&[Height<=269.2]"
+                  },
+                  {
+                     "value": [
+                        "/image/icon_20200829195744706_696141.png",
+                        "/image/icon_20200827145527397_502563.png"
+                     ],
+                     "condition": "[Height>269.2]"
+                  }
+               ],
+               "opacity": 1.0,
+               "useAoMap": true,
+               "aoMapIntensity": 0.85
+            },
+            "id": 26939,
+            "extrudeField": "Height",
+            "geometryType": "GeoBuilding"
+         },
+         {
+            "renderOrder": -45,
+            "enable": false,
+            "name": "bank",
+            "layerConfig": {
+               "size": 3.0,
+               "keepSize": true,
+               "rotateSpeed": 0,
+               "type": "image",
+               "url": "/image/27.png"
+            },
+            "id": 26938,
+            "type": "FeatureLayer",
+            "url": "/geojson/1b629942b822e134fa7dbd49b2f803d7.geojson",
+            "geometryType": "GeoPoint"
+         },
+         {
+            "renderOrder": -44,
+            "enable": false,
+            "name": "restaurant",
+            "layerConfig": {
+               "size": 4.0,
+               "keepSize": true,
+               "rotateSpeed": 0,
+               "type": "image",
+               "url": "/image/27.png"
+            },
+            "id": 26937,
+            "type": "FeatureLayer",
+            "url": "/geojson/bebbb591ea34cd031b049077ff58822f.geojson",
+            "geometryType": "GeoPoint"
+         },
+         {
+            "renderOrder": -43,
+            "extrudeFactor": 1,
+            "enable": false,
+            "offsetHeight": 0,
+            "name": "binhuLine1",
+            "layerConfig": {
+               "offsetHeight": 0,
+               "blending": false,
+               "envMapIntensity": 0.98,
+               "envMapUrl": "/image/",
+               "type": "vector",
+               "extrudeFactor": 1,
+               "color": "rgba(255,64,39,1)",
+               "extrudeField": "无",
+               "transparent": false,
+               "textureWrap": "repeatY",
+               "postRadialBlur": false,
+               "glowStrength": 0.5,
+               "effect": false,
+               "offset": [
+                  -0.33,
+                  -0.09
+               ],
+               "roughness": [
+                  0.4,
+                  0.4
+               ],
+               "metalness": [
+                  0.6,
+                  0.6
+               ],
+               "repeat": [
+                  0.2,
+                  0.09
+               ],
+               "windowBrightness": 1.7,
+               "windowColor": "rgb(7,168,255)",
+               "windowImageUrl": "/image/buildingMask1.jpg",
+               "isOpenWindow": true,
+               "isCool": false,
+               "lights": true,
+               "reflectedPanorama": false,
+               "reflectedPanoramaAngle": "",
+               "textureSize": [
+                  3,
+                  3
+               ],
+               "opacity": 1.0
+            },
+            "id": 26940,
+            "type": "BigBuildingLayer",
+            "sync": "true",
+            "extrudeField": "无",
+            "url": "/geojson/7ef5a9ae69621c6abbbea42284529cfd.geojson",
+            "geometryType": "GeoBuilding"
+         },
+         {
+            "offsetHeightField": "无",
+            "renderOrder": -42,
+            "enable": true,
+            "name": "滨湖水系",
+            "layerConfig": {
+               "offsetHeight": 20,
+               "color": "rgba(157,227,253,1)",
+               "flowSpeed": 0.3,
+               "alpha": 1,
+               "waveLength": 1,
+               "reflectionNormal": "/image/waternormals.jpg",
+               "refractionNormal": "/image/Water_2_M_Normal.jpg",
+               "reflectionImage": "/image/refraction.jpg",
+               "refractionImage": "/image/refraction.jpg",
+               "offsetHeightField": "无"
+            },
+            "id": 26941,
+            "type": "FeatureLayer",
+            "url": "/geojson/9c6a3102a081fff1b73fd30dcb07d51f.geojson",
+            "geometryType": "GeoWater"
+         }
+      ],
+      "particle": [
+         {
+            "name": "粒子1594479459641",
+            "config": "{\n   \"name\": \"\",\n   \"soloName\": \"粒子1594479461196\",\n   \"id\": \"19090417q0ajrklun1fqnvpuzwxwf1p5\",\n   \"angle\": 0,\n   \"scale\": [100, 100, 100],\n   \"density\": 50,\n   \"offsetHeight\": 0,\n   \"maxDensity\": 10000,\n   \"coordinates\": [117.28706, 31.73761, -9.3E-4],\n   \"url\": \"/model/particle/19090417q0ajrklun1fqnvpuzwxwf1p5\"\n}"
+         }
+      ],
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiLnmb3lhrAiLCJyb2xlcyI6W3siYXV0aG9yaXR5IjoiUk9MRV9VU0VSIn1dLCJzb3VyY2UiOm51bGwsIm1tZElkIjoxMzkwMywiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImNsaWVudF9pZCI6InRoaW5nanMiLCJ3ZWl4aW4iOm51bGwsInBob25lIjoiMTg1MDEzNzgwOTYiLCJzY29wZSI6WyJ1c2VyX2luZm8iXSwibmFtZSI6IiIsImlkIjoiMTM5MDMiLCJleHAiOjE1OTg3NzY4NzAsImp0aSI6IjFiNDYwMDYxLTk4YWItNDA3NC04MjRhLTZhNzRkOGZmMDg0OSIsImVtYWlsIjoiYmFpYmluZ0B1aW5ub3ZhLmNvbSIsInVzZXJuYW1lIjoi55m95YawIn0.cux0-O87OOwU9-Yu2crm4LXdhDw6hLMqkq3jTmrRRDw",
+      "map": {
+         "style": {
+            "atmosphere": true,
+            "night": false,
+            "fog": true
+         },
+         "type": "Map"
+      },
+      "terrainUrl": "",
+      "isProxima": true
+   },
+   "success": 1
+}
