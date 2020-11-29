@@ -1,10 +1,12 @@
 <template>
     <div class="home">
         <div id="div3d"></div>
+        <Menu/>
     </div>
 </template>
 
 <script>
+import Menu from '@/components/menu/Index.vue';
 
 export default {
     name: 'home',
@@ -17,6 +19,9 @@ export default {
     },
     watch: {
 
+    },
+    components: {
+        Menu,
     },
     mounted() {
         this.initEarth();

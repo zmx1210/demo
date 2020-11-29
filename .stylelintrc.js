@@ -6,6 +6,7 @@ module.exports = {
     ],
     rules: {
         indentation: 4,
+        "at-rule-no-unknown": null,
         'order/properties-order': [
             'position',
             'top',
